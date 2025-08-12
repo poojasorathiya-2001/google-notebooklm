@@ -9,13 +9,13 @@ require('./db/Conn');
 const app = express();
 
 // CORS configuration
+// CORS configuration
 const corsOptions = {
-    origin: ["https://google-notebooklm.vercel.app"],
+    origin: ["https://google-notebooklm.vercel.app", "http://localhost:5173"],
     methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
     credentials: true,
     optionsSuccessStatus: 200
 };
-
 
 app.use(cors(corsOptions));
 app.use(express.json());

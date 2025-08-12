@@ -62,7 +62,7 @@ GEMINI_API_KEY=AIzaSyD5j4kFfFXNrXzUlpSUtSYZj7YWfe71CfI
 nodemon server.js
 ```
 
-The server will start on `http://localhost:8000`
+The server will start on `https://google-notebooklm.onrender.com`
 
 ## ?? Configuration
 
@@ -76,7 +76,7 @@ PORT=5000  # Change to your desired port
 **Important:** If you change the backend port, also update the frontend API configuration in `Frontend/src/api/api.js`:
 
 ```javascript
-const API_BASE_URL = 'http://localhost:5000'; // Update to match your backend port
+const API_BASE_URL = 'https://google-notebooklm.onrender.com'; // Update to match your backend port
 ```
 
 ### CORS Configuration
@@ -85,7 +85,7 @@ If your frontend runs on a different port, update `server.js`:
 
 ```javascript
 const corsOptions = {
-    origin: ["http://localhost:5173"], // Change to your frontend URL
+    origin: ["https://google-notebooklm.vercel.app/"], // Change to your frontend URL
     methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
     credentials: true,
     optionsSuccessStatus: 200
@@ -190,7 +190,7 @@ npm install
 # Start development server
 nodemon server.js
 
-# Server will start on http://localhost:8000
+# Server will start on https://google-notebooklm.onrender.com
 ```
 
 

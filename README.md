@@ -15,7 +15,7 @@
    ```
 
 3. **Access Application:**
-   - Frontend: `http://localhost:5173`
-   - Backend: `http://localhost:8000`
+   - Frontend: `https://google-notebooklm.vercel.app`
+   - Backend: `https://google-notebooklm.onrender.com`
 
 **Everything is pre-configured! Just install dependencies and run!** ??

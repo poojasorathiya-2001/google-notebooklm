@@ -5,7 +5,7 @@ const API_BASE_URL = 'https://google-notebooklm.onrender.com/api';
 const api = axios.create({
   baseURL: API_BASE_URL,
   withCredentials: true,
-  timeout: 30000, // 30 seconds timeout
+  timeout:  120000, // 30 seconds timeout
 });
 
 // Add request interceptor for debugging
