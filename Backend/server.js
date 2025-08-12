@@ -10,7 +10,7 @@ const app = express();
 
 // CORS configuration
 const corsOptions = {
-    origin: ["http://localhost:5173"],
+    origin: ["https://google-notebooklm.vercel.app"],
     methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
     credentials: true,
     optionsSuccessStatus: 200
